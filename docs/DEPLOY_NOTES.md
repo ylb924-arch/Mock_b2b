@@ -28,6 +28,16 @@ npm run preview
 dist/
 ```
 
+Публичные статические assets, которые должны попасть в `dist/`:
+
+```txt
+/favicon.svg
+/apple-touch-icon.svg
+/site.webmanifest
+/robots.txt
+/sitemap.xml
+```
+
 Путь для деплоя:
 
 ```txt
