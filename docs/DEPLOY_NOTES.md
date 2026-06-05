@@ -1,4 +1,4 @@
-# EventPulse Deploy Notes
+# 2Pulse Deploy Notes
 
 Проект собирается как полностью статический frontend без базы данных, авторизации и backend API.
 
@@ -31,14 +31,14 @@ dist/
 Путь для деплоя:
 
 ```txt
-/var/www/eventpulse/dist
+/var/www/2pulse/dist
 ```
 
 ## Проверка
 
 ```bash
-curl -I https://example.com/
-curl -I https://example.com/status
+curl -I https://2pulse.info/
+curl -I https://2pulse.info/status
 ```
 
 `/api/v1/events` не проверять как обычную страницу сайта. Этот путь резервируется под Nginx `proxy_pass`; frontend не создаёт route, handler или fetch для этого endpoint.

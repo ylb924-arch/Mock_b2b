@@ -8,7 +8,7 @@ export function TestimonialResult() {
         <article>
           <Quote size={28} className="text-pulse-400" />
           <blockquote className="mt-5 max-w-3xl text-xl font-medium leading-8 text-white">
-            EventPulse дал нам прозрачность, которой не было раньше. Мы видим поведение аудитории
+            2Pulse дал нам прозрачность, которой не было раньше. Мы видим поведение аудитории
             в реальном времени и принимаем решения прямо во время события.
           </blockquote>
           <p className="mt-5 text-sm font-semibold text-white">Илья Морозов</p>

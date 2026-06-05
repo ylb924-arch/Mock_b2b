@@ -24,12 +24,12 @@ const navItems = [
 export function Sidebar() {
   return (
     <aside className="sticky top-0 hidden h-screen w-[280px] shrink-0 border-r border-white/10 bg-graphite-950/95 px-5 py-6 backdrop-blur min-[1360px]:flex min-[1360px]:flex-col">
-      <a href="#overview" className="flex items-center gap-3" aria-label="EventPulse">
+      <a href="#overview" className="flex items-center gap-3" aria-label="2Pulse">
         <span className="grid size-10 place-items-center rounded-lg bg-pulse-500 text-graphite-950 shadow-[0_0_30px_rgba(34,197,94,0.35)]">
           <Activity size={21} strokeWidth={2.6} />
         </span>
         <span>
-          <span className="block text-lg font-semibold text-white">EventPulse</span>
+          <span className="block text-lg font-semibold text-white">2Pulse</span>
           <span className="block text-xs text-zinc-500">Realtime analytics</span>
         </span>
       </a>

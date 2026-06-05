@@ -1,11 +1,11 @@
 # PROMPT ДЛЯ CODEX
-# Проект: EventPulse — статический сайт-заглушка под XHTTP
+# Проект: 2Pulse — статический сайт-заглушка под XHTTP
 
 ## 0. Контекст задачи
 
 Нужно создать НЕ коммерческий сайт веб-студии и НЕ дубль GoUp2.
 
-Нужен самостоятельный нейтральный сайт-заглушка под названием **EventPulse**.
+Нужен самостоятельный нейтральный сайт-заглушка под названием **2Pulse**.
 
 Тематика сайта:  
 **платформа событийной аналитики для сайтов, приложений и мероприятий в реальном времени**.
@@ -69,7 +69,7 @@ Footer
 Название:
 
 ```txt
-EventPulse
+2Pulse
 ```
 
 Слоган:
@@ -81,7 +81,7 @@ EventPulse
 Подзаголовок:
 
 ```txt
-EventPulse собирает, обогащает и визуализирует события вашего сайта, продукта или мероприятия в реальном времени — от регистрации до пост-аналитики.
+2Pulse собирает, обогащает и визуализирует события вашего сайта, продукта или мероприятия в реальном времени — от регистрации до пост-аналитики.
 ```
 
 Дополнительные тезисы:
@@ -183,7 +183,7 @@ src/data/mockMetrics.ts
 Левая sidebar:
 
 ```txt
-EventPulse logo
+2Pulse logo
 Обзор
 События
 Аудитория
@@ -219,7 +219,7 @@ API
 Понимайте каждое событие.
 Действуйте сейчас.
 
-EventPulse собирает, обогащает и визуализирует данные о ваших мероприятиях в реальном времени. От регистрации до пост-аналитики — вся картина у вас под рукой.
+2Pulse собирает, обогащает и визуализирует данные о ваших мероприятиях в реальном времени. От регистрации до пост-аналитики — вся картина у вас под рукой.
 ```
 
 Кнопки:
@@ -340,7 +340,7 @@ API, Webhooks, SDK
 Сделать блок отзыва:
 
 ```txt
-EventPulse дал нам прозрачность, которой не было раньше. Мы видим поведение аудитории в реальном времени и принимаем решения прямо во время события.
+2Pulse дал нам прозрачность, которой не было раньше. Мы видим поведение аудитории в реальном времени и принимаем решения прямо во время события.
 ```
 
 Имя:
@@ -368,7 +368,7 @@ EventPulse дал нам прозрачность, которой не было 
 
 ```txt
 Документация и API
-Интегрируйте EventPulse за часы, а не за недели. Подробные гайды, SDK и примеры на всех языках.
+Интегрируйте 2Pulse за часы, а не за недели. Подробные гайды, SDK и примеры на всех языках.
 ```
 
 Кнопка:
@@ -382,7 +382,7 @@ EventPulse дал нам прозрачность, которой не было 
 Показать код как статический пример:
 
 ```http
-POST https://api.eventpulse.io/v1/events
+POST https://2pulse.info/api/v1/events
 Content-Type: application/json
 
 {
@@ -397,7 +397,7 @@ Content-Type: application/json
 ```
 
 Важно:
-- В публичном код-блоке можно показывать внешний пример `https://api.eventpulse.io/v1/events`.
+- В публичном код-блоке можно показывать внешний пример `https://2pulse.info/api/v1/events`.
 - Не делать реальный fetch.
 - Не использовать реальный домен, если он не куплен. Это только mock-документация.
 
@@ -677,7 +677,7 @@ Hysteria2 config
 Можно создать отдельный файл с примером Nginx:
 
 ```txt
-docs/nginx-eventpulse-example.conf
+docs/nginx-2pulse-example.conf
 ```
 
 Но не применять его автоматически.
@@ -750,7 +750,7 @@ docs/chatgpt-image-prompts.md
 Пример промта:
 
 ```txt
-Create a realistic dark SaaS analytics dashboard for a fictional platform called EventPulse. The interface should show live event streams, metrics cards, platform activity charts, API status widgets, and webhook logs. Use a black graphite background, subtle green neon accents, thin borders, and realistic product UI details. It must not look like a web agency landing page. No real company logos. No real personal data.
+Create a realistic dark SaaS analytics dashboard for a fictional platform called 2Pulse. The interface should show live event streams, metrics cards, platform activity charts, API status widgets, and webhook logs. Use a black graphite background, subtle green neon accents, thin borders, and realistic product UI details. It must not look like a web agency landing page. No real company logos. No real personal data.
 ```
 
 Изображения, которые желательно подготовить:
@@ -836,7 +836,7 @@ src/
 
 docs/
   chatgpt-image-prompts.md
-  nginx-eventpulse-example.conf
+  nginx-2pulse-example.conf
   DEPLOY_NOTES.md
   PROJECT_CONTEXT.md
 ```
@@ -848,7 +848,7 @@ docs/
 Создать файл:
 
 ```txt
-docs/nginx-eventpulse-example.conf
+docs/nginx-2pulse-example.conf
 ```
 
 Содержимое должно быть примерным и безопасным, без реальных доменов и секретов:
@@ -858,7 +858,7 @@ server {
     listen 443 ssl http2;
     server_name example.com www.example.com;
 
-    root /var/www/eventpulse/dist;
+    root /var/www/2pulse/dist;
     index index.html;
 
     location / {
@@ -903,7 +903,7 @@ npm run preview
 Путь для деплоя:
 
 ```txt
-/var/www/eventpulse/dist
+/var/www/2pulse/dist
 ```
 
 Пример проверки:
@@ -932,7 +932,7 @@ docs/PROJECT_CONTEXT.md
 В нём коротко описать:
 
 ```txt
-EventPulse — статический сайт-заглушка в виде нейтральной аналитической SaaS-платформы.
+2Pulse — статический сайт-заглушка в виде нейтральной аналитической SaaS-платформы.
 Проект не связан с GoUp2.
 Проект не использует базу данных.
 Проект не использует backend.
@@ -1023,7 +1023,7 @@ Frontend calls reserved endpoint: no
 
 ## 18. Главная цель
 
-Сделать профессиональный, реалистичный, статический сайт EventPulse, который визуально выглядит как современная аналитическая платформа.
+Сделать профессиональный, реалистичный, статический сайт 2Pulse, который визуально выглядит как современная аналитическая платформа.
 
 Главный критерий успеха:
 

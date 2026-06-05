@@ -10,10 +10,10 @@ export function ApiDocsSection() {
         <Code2 size={24} className="text-pulse-400" />
         <h2 className="mt-5 text-2xl font-semibold text-white">Документация и API</h2>
         <p className="mt-4 max-w-xl text-sm leading-7 text-zinc-400">
-          Интегрируйте EventPulse за часы, а не за недели. Подробные гайды, SDK и статические
+          Интегрируйте 2Pulse за часы, а не за недели. Подробные гайды, SDK и статические
           примеры помогают быстро описать события продукта, сайта или мероприятия.
         </p>
-        <a href="mailto:hello@example.com" className="mt-6 inline-flex items-center gap-2 rounded-lg bg-white px-5 py-3 text-sm font-semibold text-graphite-950 transition hover:bg-pulse-400">
+        <a href="mailto:hello@2pulse.info" className="mt-6 inline-flex items-center gap-2 rounded-lg bg-white px-5 py-3 text-sm font-semibold text-graphite-950 transition hover:bg-pulse-400">
           Перейти к документации
           <ArrowRight size={17} />
         </a>
@@ -50,7 +50,7 @@ export function ApiDocsSection() {
           <span className="rounded-md border border-white/10 px-2 py-1 text-xs text-zinc-500">static example</span>
         </div>
         <pre className="overflow-x-auto rounded-lg border border-white/10 bg-black/45 p-4 text-xs leading-6 text-zinc-300">
-{`POST https://api.eventpulse.io/v1/events
+{`POST https://2pulse.info/api/v1/events
 Content-Type: application/json
 
 {
