@@ -12,7 +12,9 @@ import { TopStatusBar } from './components/TopStatusBar';
 
 function InternalServicePreview() {
   const rows = [
-    ['Build status', 'static frontend'],
+    ['Project', '2Pulse'],
+    ['Domain', '2pulse.info'],
+    ['Static frontend', 'yes'],
     ['Database', 'not used'],
     ['Backend', 'not used'],
     ['Reserved endpoint', '/api/v1/events'],
@@ -23,7 +25,7 @@ function InternalServicePreview() {
     <main className="min-h-screen bg-graphite-950 px-4 py-8 text-white">
       <section className="mx-auto max-w-3xl rounded-lg border border-white/10 bg-graphite-900 p-6 shadow-glow">
         <p className="text-xs uppercase tracking-[0.22em] text-pulse-400">Internal preview</p>
-        <h1 className="mt-4 text-3xl font-semibold">Служебная проверка EventPulse</h1>
+        <h1 className="mt-4 text-3xl font-semibold">Служебная проверка 2Pulse</h1>
         <p className="mt-3 text-sm leading-6 text-zinc-400">
           Статическая страница для проверки проекта. Она не управляет сервером, конфигурациями
           или инфраструктурой.
